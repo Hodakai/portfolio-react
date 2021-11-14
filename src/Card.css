@@ -1,20 +1,30 @@
+body {
+    background: linear-gradient(45deg, #4a5460, #1a202a);
+}
 .cards {
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
     justify-content: space-evenly;
 }
+.hello h1 {
+    color: white;
+}
+.hello p {
+    color: #dcb547;
+}
 .card {
     width: 480px;
     height: 300px;
     border-radius: 10px;
-    background-color: turquoise;
+    background: linear-gradient(30deg, #fd8844, #2e258b , #e74541);
 }
 .upContent {
     color: black;
 }
 .content {
     padding: 20px;
+    color: white;
 }
 .card img {
     margin-left: 180px;

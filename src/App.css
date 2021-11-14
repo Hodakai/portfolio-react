@@ -7,7 +7,7 @@ body {
 .img {
   height: 1000px;
   width: 1000px;
-  background-color: coral;
+  background: linear-gradient(30deg, #fd8844, #2e258b , #e74541);
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
 .img img {
@@ -15,7 +15,8 @@ body {
   margin-top: 150px;
   margin-left: 150px;
   height: 800px;
-  background-color: coral;
+  transform: translateX(30px);
+  background: transparent;
 }
 .hello {
   font-size: xxx-large;
