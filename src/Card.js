@@ -18,7 +18,7 @@ function Card() {
                 <h2> {name} </h2>
                 <h3> {job} </h3>
                 <p> {about} </p>
-                <Button variant="contained">
+                <Button className={"btn"} variant="contained">
                     Know more
                 </Button>
             </div>

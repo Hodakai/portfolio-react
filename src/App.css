@@ -1,5 +1,5 @@
 body {
-  background-color: lightgray;
+  background: linear-gradient(45deg, #4a5460, #1a202a);
 }
 .General {
   display: block;
@@ -26,6 +26,9 @@ body {
   width: 800px;
   margin-right: 20px;
 }
+.hello h1 {
+  color: white;
+}
 .hello p {
-  color: coral;
+  color: #dcb547;
 }
