@@ -32,10 +32,12 @@ function App() {
                     />
                 </p>
             </div>
-            <div className={"cards"}>
-                <Card/>
-                <Card/>
-                <Card/>
+            <div className={"allCards"}>
+                <div className={"cards"}>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                </div>
             </div>
         </div>
     );

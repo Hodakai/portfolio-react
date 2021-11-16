@@ -1,5 +1,7 @@
 import './Card.css';
-import React, {useState} from "react";
+import * as React from "react";
+import Button from "@mui/material/Button";
+import {useState} from "react";
 
 function Card() {
 
@@ -16,7 +18,9 @@ function Card() {
                 <h2> {name} </h2>
                 <h3> {job} </h3>
                 <p> {about} </p>
-                <button>Check profile</button>
+                <Button variant="contained">
+                    Know more
+                </Button>
             </div>
         </div>
     );
